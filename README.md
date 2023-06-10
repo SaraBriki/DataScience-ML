@@ -8,9 +8,9 @@ This is a mini-project I made when I first started leaning NLP (Natural Language
 ### Collected data
 This project contains **.txt** and **.csv** files that correspond to the textual data we'll be processing.
 We have three main data sources:
-* _amazon_cells_labelled.txt_ and its respective .csv file.
-* _imdb_labelled.txt_ and its respective .csv file.
-* _yelp_labelled.txt_ and its respective .csv file.
+* _amazon_cells_labelled.txt_ and its respective **.csv** file.
+* _imdb_labelled.txt_ and its respective **.csv** file.
+* _yelp_labelled.txt_ and its respective **.csv** file.
 
 These files contain labelled data, with the labels being either **0** or **1**, 1 for a positive statement and 0 for a negative one.
 

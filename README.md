@@ -20,6 +20,10 @@ These files contain labelled data, with the labels being either **0** or **1**, 
 * The _yelp_labelled.txt_ contain customer reviews and recommendations on places (restaurants, bars, etc.) they had visited on _yelp_ website.
 
 ### Processing code
-In the _main.py_ file lies all the code that I had written to parse, process and structure the available textual data into the BoW model.
-
+In the _main.py_ Python file lies all the code that I had written to parse, process and structure the available textual data into the BoW model.
+In this file, we started by **importing the necessary librairies** and then we moved to the processing of data as follows:
+1. Implementing a _clean_text()_ function to clean our textual data. It takes in a dataframe from which we remove symbols, links, punctuation, stopwords, etc. The text is tokenized as a list for easier manipulation of its contents. We subsequently perform a stemming of these words to reduce them to their original bases.
+2. Performing an 80/20 train-test split on the processed data.
+3. Importing the GaussianNB (Naive-Bayes) model in which we fit the training data.
+4. Applying the model to make predictions and calculating performance metrics.
 
